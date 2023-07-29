@@ -24,4 +24,3 @@ plugins:
   - serverless-jetpack
   - serverless-offline
   - serverless-websockets-plugin
-  
