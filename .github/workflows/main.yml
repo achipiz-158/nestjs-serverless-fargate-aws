@@ -3,7 +3,7 @@ name: Deploy NestJS on ECR
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   create-docker-image:
