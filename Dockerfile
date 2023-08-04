@@ -10,7 +10,7 @@ COPY package*.json ./
 # Instalar todas las dependencias, incluyendo las de desarrollo
 RUN npm install
 
-# Copiar todo el código fuente al directorio de trabajo
+# Copiar todo el código fuente al directorio de trabajo ///
 COPY . .
 
 # Construir la aplicación
